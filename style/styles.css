@@ -1,18 +1,20 @@
 /* common shared styles */
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 /* header related styles */
 .banner {
     max-width: 1320px;
     height: 600px;
     margin: 50px auto 0px;
-    background-image:linear-gradient(to bottom, #070211 , rgba(7, 2, 17, 0.00)), url('../resources/Banner Image.png');
+    background-image: linear-gradient(to bottom, #070211, rgba(7, 2, 17, 0.00)), url('../resources/Banner Image.png');
     border-radius: 16px;
     background-repeat: no-repeat;
     /* background-size: cover; */
     background-position: center;
+    font-family: Merriweather;
 }
 
 .banner-content {
@@ -34,3 +36,43 @@
 }
 
 /* main section styles */
+main{
+    max-width: 1320px;
+}
+main section{
+    margin: 120px auto 0px;
+}
+
+/* offer section related styles */
+.offer {
+    font-family: Inter;
+    text-align: center;
+    max-width: 800px;
+    padding-left: 350px;
+}
+
+.offer-percent {
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.offer-day {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 0px;
+}
+
+.offer-category {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 48px;
+}
+.offer img{
+    margin-top: 0px;
+}
